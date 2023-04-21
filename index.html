@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dan's Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="">
+        <img src="images/logo_transparent.png" class="logo">
         <nav>
-            <li>About Me</li>
-            <li>Project</li>
-            <li>Contact</li>
+            <ul>
+                <li>About Me</li>
+                <li>Project</li>
+                <li>Contact</li>
+            </ul>
+            
         </nav>
     </header>
     <main>
@@ -24,19 +28,21 @@
             <a href=""><i class="fa-brands fa-square-twitter fa-2x"></i></a>
             <a href="https://github.com/njx100"><i class="fa-brands fa-square-github fa-2x"></i></a>
         </div>
-        <div class="about">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, minus quae! Ullam autem deserunt magni accusamus libero quaerat quae ad, eaque id. Quisquam ea necessitatibus temporibus, totam aspernatur sapiente nostrum!</p>
-        </div>
-        <div class="projects">
-            <h2>Projects</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magni itaque dolorem commodi ipsum. Nostrum sunt facilis quisquam atque architecto! Eaque, adipisci facilis pariatur ipsa aspernatur labore id eligendi laborum.</p>
-        </div>
-        <div class="contact">
-            <h2>Contact Me</h2>
-            <textarea name="name" id="" cols="30" rows="1" placeholder="your name"></textarea>
-            <textarea name="email" id="" cols="30" rows="1" placeholder="your email"></textarea>
-            <textarea name="message" id="" cols="30" rows="10" placeholder="type your message here!"></textarea>
+        <div class="container">
+            <div class="about">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, minus quae! Ullam autem deserunt magni accusamus libero quaerat quae ad, eaque id. Quisquam ea necessitatibus temporibus, totam aspernatur sapiente nostrum!</p>
+            </div>
+            <div class="projects">
+                <h2>Projects</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magni itaque dolorem commodi ipsum. Nostrum sunt facilis quisquam atque architecto! Eaque, adipisci facilis pariatur ipsa aspernatur labore id eligendi laborum.</p>
+            </div>
+            <div class="contact">
+                <h2>Contact Me</h2>
+                <textarea name="name" id="" cols="30" rows="1" placeholder="your name"></textarea>
+                <textarea name="email" id="" cols="30" rows="1" placeholder="your email"></textarea>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="type your message here!"></textarea>
+            </div>
         </div>
         <i class="fa-solid fa-angle-left"></i>
         <i class="fa-solid fa-angle-right"></i>
